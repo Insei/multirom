@@ -1,14 +1,8 @@
-# MultiROM
+# MultiROM for mocha
 MultiROM is a one-of-a-kind multi-boot solution. It can boot android ROM while
 keeping the one in internal memory intact or boot Ubuntu without formating
 the whole device. MultiROM can boot either from internal memory of the device
 or from USB flash drive.
-
-XDA threads:
-* grouper: http://forum.xda-developers.com/showthread.php?t=2011403
-* flo: http://forum.xda-developers.com/showthread.php?t=2457063
-* mako: http://forum.xda-developers.com/showthread.php?p=46223377
-* hammerhead: http://forum.xda-developers.com/showthread.php?t=2571011
 
 ###Sources
 MultiROM uses git submodules, so you need to clone them as well:
