@@ -84,15 +84,6 @@ static void get_abs_min_max(int fd)
         mt_range_y[0] = absinfo.minimum;
         mt_range_y[1] = absinfo.maximum;
     }
-
-    mt_switch_xy = (mt_range_x[1] > mt_range_y[1]);
-    if(mt_switch_xy)
-    {
-        int tmp[2];
-        memcpy(tmp, mt_range_x, 2*sizeof(int));
-        memcpy(mt_range_x, mt_range_y, 2*sizeof(int));
-        memcpy(mt_range_y, tmp, 2*sizeof(int));
-    }
 }
 
 static int ev_init(void)
